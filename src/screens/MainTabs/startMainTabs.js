@@ -22,7 +22,7 @@ const startTabs = () => {
                                 title: "Menu",
                                 id: "sideDrawerToggle"
                             }
-                        ]
+                        ],
                     }
                 },
                 {
@@ -41,10 +41,16 @@ const startTabs = () => {
                     }
                 },
             ],
+            tabsStyle: {
+                tabBarSelectedButtonColor: 'orange'
+            },
             drawer: {
                 left: {
                     screen: "awesome-places.SideDrawer"
                 }
+            },
+            appStyle: {
+                tabBarSelectedButtonColor: 'orange'
             }
         });
     });
